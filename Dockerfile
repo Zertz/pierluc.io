@@ -3,7 +3,7 @@ MAINTAINER Pier-Luc Gendreau <pierluc@outlook.com>
 
 ENV BUILD_PACKAGES bash curl-dev ruby-dev libffi-dev build-base
 ENV NGINX_PACKAGES nginx
-ENV RUBY_PACKAGES ruby ruby-bundler
+ENV RUBY_PACKAGES ruby ruby-io-console ruby-bundler
 ENV RUBY_GEMS kramdown rouge jekyll
 
 RUN apk update && \
