@@ -1,7 +1,7 @@
 FROM alpine:3.4
 MAINTAINER Pier-Luc Gendreau <pierluc@outlook.com>
 
-ENV BUILD_PACKAGES bash curl-dev ruby-dev build-base
+ENV BUILD_PACKAGES bash curl-dev ruby-dev libc-dev build-base
 ENV NGINX_PACKAGES nginx
 ENV RUBY_PACKAGES ruby ruby-bundler
 ENV RUBY_GEMS kramdown rouge jekyll
@@ -11,11 +11,9 @@ RUN apk update && \
     apk add $BUILD_PACKAGES && \
     apk add $NGINX_PACKAGES && \
     apk add $RUBY_PACKAGES && \
-    rm -rf /var/cache/apk/*
-
-RUN gem install $RUBY_GEMS --no-rdoc --no-ri
-
-RUN mkdir /srv/www
+    rm -rf /var/cache/apk/* && \
+    gem install $RUBY_GEMS --no-rdoc --no-ri && \
+    mkdir /srv/www
 
 WORKDIR /srv/www
 
