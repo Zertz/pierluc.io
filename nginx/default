@@ -4,8 +4,7 @@ server {
     root /srv/www/_site;
     index index.html;
 
-    # Make site accessible from http://localhost/
-    server_name localhost;
+    server_name pierluc.io;
 
     location / {
         try_files $uri $uri/ /index.html;
