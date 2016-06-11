@@ -1,10 +1,26 @@
-FROM zertz/jekyll-nginx
+FROM alpine:3.4
+MAINTAINER Pier-Luc Gendreau <pierluc@outlook.com>
 
-ENV LANGUAGE en_US.UTF-8
-ENV LANG en_US.UTF-8
-ENV LC_ALL en_US.UTF-8
+ENV BUILD_PACKAGES bash curl-dev ruby-dev build-base
+ENV NGINX_PACKAGES nginx
+ENV RUBY_PACKAGES ruby ruby-bundler
+ENV RUBY_GEMS kramdown rouge jekyll
+
+RUN apk update && \
+    apk upgrade && \
+    apk add $BUILD_PACKAGES && \
+    apk add $NGINX_PACKAGES && \
+    apk add $RUBY_PACKAGES && \
+    rm -rf /var/cache/apk/*
+
+RUN gem install $RUBY_GEMS --no-rdoc --no-ri
+
+RUN mkdir /srv/www
 
 WORKDIR /srv/www
+
+ADD nginx/default /etc/nginx/sites-available/default
+ADD nginx/nginx.conf /etc/nginx/nginx.conf
 
 ADD . /srv/www/
 RUN jekyll build
