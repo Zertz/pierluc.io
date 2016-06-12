@@ -23,4 +23,4 @@ RUN jekyll build
 
 EXPOSE 80
 
-CMD exec nginx
+CMD nginx
