@@ -15,14 +15,12 @@ RUN apk update && \
     gem install $RUBY_GEMS --no-rdoc --no-ri && \
     mkdir /srv/www
 
+ADD nginx.conf /etc/nginx/
+
 WORKDIR /srv/www
-
-ADD nginx/default /etc/nginx/sites-available/default
-ADD nginx/nginx.conf /etc/nginx/nginx.conf
-
-ADD . /srv/www/
+ADD . /srv/www
 RUN jekyll build
 
 EXPOSE 80
 
-CMD nginx
+CMD exec nginx
