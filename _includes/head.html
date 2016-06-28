@@ -7,6 +7,34 @@
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+
+  <!-- Royal Preloader CSS -->
+	<link rel="stylesheet" href="{{ "/css/royal_preloader.css" | prepend: site.baseurl }}">
+
+	<!-- jQuery Files -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+	<!-- Royal Preloader -->
+	<script type="text/javascript" src="{{ "/js/royal_preloader.min.js" | prepend: site.baseurl }}"></script>
+	<script type="text/javascript">
+		Royal_Preloader.config({
+		  mode: 'number',
+		  showProgress: false,
+		  background: '#1d1d1d'
+		})
+	</script>
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="{{ "/css/ionicons.min.css" | prepend: site.baseurl }}">
+	<link rel="stylesheet" href="{{ "/css/pe-icon-7-stroke.css" | prepend: site.baseurl }}">
+	<link rel="stylesheet" href="{{ "/css/magnific-popup.css" | prepend: site.baseurl }}">
+	<link rel="stylesheet" href="{{ "/css/logoiconfont.css" | prepend: site.baseurl }}">
+	<link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
+
+	<!-- Alternate Stylesheets / choose what color and base you want and include the 2 files regularly AFTER style.css above -->
+	<link rel="stylesheet" href="{{ "/css/colors/pinkish.css" | prepend: site.baseurl }}">
+
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 </head>

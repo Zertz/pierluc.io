@@ -1,38 +1,26 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
+<footer class="background2 footer-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2 text-center">
+        <span class="icon-handle-streamline-vector logo"></span>
+        <h2 class="theme-title">pierluc<span class="theme-title-smaller">.io</span></h2>
+        <a href="#">
+          <span class="ion-social-twitter social-icons-dark-hover mr15"></span>
+        </a>
+        <a href="#">
+          <span class="ion-social-facebook social-icons-dark-hover mr15"></span>
+        </a>
+        <a href="#">
+          <span class="ion-social-googleplus-outline social-icons-dark-hover"></span>
+        </a>
       </div>
     </div>
-
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2 text-small text-center">
+        <hr>
+        <button type="button" class="btn btn-primary btn-up-footer btn-lg scroll-top">Up</button>
+        <p class="no-margin">&copy; Pier-Luc Gendreau</p>
+      </div>
+    </div>
   </div>
-
 </footer>

@@ -3,17 +3,16 @@
 
   {% include head.html %}
 
-  <body>
+  <body class="royal_preloader" data-spy="scroll" data-target=".navbar" data-offset="70">
+    <div id="royal_preloader"></div>
 
     {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+    {% include jumbotron.html %}
 
     {% include footer.html %}
+
+    {% include scripts.html %}
 
   </body>
 
