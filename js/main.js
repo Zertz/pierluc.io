@@ -32,13 +32,13 @@ $('#thework').mixItUp({
 });
 
 /* ---- our ideology hover ---- */
-$('.process-box').hover(function() {
+/* $('.process-box').hover(function() {
 	$(this).find('.process-intro').hide();
 	$(this).find('.process-content').fadeIn();
 }, function() {
 	$(this).find('.process-content').hide();
 	$(this).find('.process-intro').fadeIn();
-});
+});*/
 
 /* ---- contact form ---- */
 $("#contactForm").validator().on("submit", function(event) {
@@ -199,7 +199,7 @@ $(document).on('click','.navbar-collapse.in',function(e) {
 var current = 1; 
 var height = jQuery('.ticker').height(); 
 var numberDivs = jQuery('.ticker').children().length; 
-var first = jQuery('.ticker h1:nth-child(1)'); 
+var first = jQuery('.ticker :nth-child(1)'); 
 setInterval(function() {
     var number = current * -height;
     first.css('margin-top', number + 'px');
