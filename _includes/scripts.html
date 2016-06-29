@@ -1,30 +1,6 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="{{ "/js/particles.min.js" | prepend: site.baseurl }}"></script>
 <script type="text/javascript" src="{{ "/js/particlesRun.js" | prepend: site.baseurl }}"></script>
-<script type="text/javascript" src="{{ "/js/jquery.mixitup.js" | prepend: site.baseurl }}"></script>
 <script type="text/javascript" src="{{ "/js/form-validator.min.js" | prepend: site.baseurl }}"></script>  
-<script type="text/javascript" src="{{ "/js/jquery.countdown.min.js" | prepend: site.baseurl }}"></script>
-<script type="text/javascript">
-  $('#clock').countdown('2016/6/10').on('update.countdown', function(event) {
-    var $this = $(this).html(event.strftime(''
-      + '<span>%-w</span> week%!w '
-      + '<span>%-d</span> day%!d '
-      + '<span>%H</span> hr '
-      + '<span>%M</span> min '
-      + '<span>%S</span> sec'));
-  });
-</script>
-<script type="text/javascript" src="{{ "/js/jquery.inview.min.js" | prepend: site.baseurl }}"></script>
-<script type="text/javascript" src="{{ "/js/jquery.countTo.js" | prepend: site.baseurl }}"></script>  
-<script type="text/javascript">
-  /* ---- Counter (our count) ---- */
-  $('#ourcount').on('inview', function(event, isInView) {
-    if (isInView) {
-      $('.timer').countTo({speed: 3000});
-    }
-  });
-</script>
-<script type="text/javascript" src="{{ "/js/jquery.magnific-popup.min.js" | prepend: site.baseurl }}"></script>
-<script type="text/javascript" src="{{ "/js/scrollreveal.min.js" | prepend: site.baseurl }}"></script>
-<script type="text/javascript" src="{{ "/js/style-switcher.js" | prepend: site.baseurl }}"></script><!-- Remove for production -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 <script type="text/javascript" src="{{ "/js/main.js" | prepend: site.baseurl }}"></script>

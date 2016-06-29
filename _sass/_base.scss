@@ -192,15 +192,18 @@ pre {
  * Icons
  */
 .icon {
-
     > svg {
         display: inline-block;
-        width: 16px;
-        height: 16px;
+        width: 24px;
+        height: 24px;
         vertical-align: middle;
 
         path {
-            fill: $grey-color;
+            fill: $white-color;
         }
     }
+}
+
+.icon:hover, .icon:focus {
+    text-decoration: none;
 }
