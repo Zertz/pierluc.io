@@ -43,12 +43,12 @@ Author:Denis Samardjiev
 /* =Common Styles
 -------------------------------------------------------------- */
 body {
-	background-color: #1d1d1d;
-	font-family: 'Roboto', sans-serif;
-	font-size: 18px;
-	font-weight: 300;
+	background-color: $background-color;
+	font-family: $base-font-family;
+	font-size: $base-font-size;
+	font-weight: $base-font-weight;
     padding-top: 69px;
-	color: #A2A2A2;
+	color: $text-color;
 	height: 100%;
 	min-height: 100% !important;
 }
@@ -1170,9 +1170,9 @@ ul.social-buttons li a:active {
     background-position: center bottom; 
 }
 
-#our-process .process-box:hover {
+/* #our-process .process-box:hover {
     background-image: url('../images/arrow-bg-hover.png');
-}
+}*/
 
 #our-process .process-box.no-hover:hover {
     background-image: none;
