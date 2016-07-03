@@ -2,7 +2,7 @@
 $('#contactForm').validator().on('submit', function (event) {
   if (event.isDefaultPrevented()) {
     formError()
-    submitMSG(false, 'Did you fill in the form properly?')
+    submitMSG(false, 'Assurez-vous de remplir tous les champs.')
   } else {
     event.preventDefault()
     submitForm()
@@ -12,16 +12,19 @@ $('#contactForm').validator().on('submit', function (event) {
 function submitForm () {
   var name = $('#name').val()
   var email = $('#email').val()
-  var msg_subject = $('#msg_subject').val()
   var message = $('#message').val()
 
   $.ajax({
-    type: 'POST',
-    url: 'php/contact.php',
-    data: 'name=' + name + '&email=' + email + '&msg_subject=' +
-    msg_subject + '&message=' + message,
-    success: function (text) {
-      if (text == 'success') {
+    url: 'https://formspree.io/info@pierluc.io', 
+    method: 'POST',
+    data: {
+      name: name,
+      email: email,
+      message: message
+    },
+    dataType: 'json',
+    success: function (res) {
+      if (res.success === 'email sent') {
         formSuccess()
       } else {
         formError()
@@ -33,7 +36,7 @@ function submitForm () {
 
 function formSuccess () {
   $('#contactForm')[0].reset()
-  submitMSG(true, 'Message Submitted!')
+  submitMSG(true, 'Merci, votre message a été envoyé!')
 }
 
 function formError () {
