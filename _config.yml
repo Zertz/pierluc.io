@@ -8,7 +8,7 @@
 # Site settings
 title: "Pier-Luc, votre spécialiste en planification, infrastructure et développement Web"
 email: pierluc@pierluc.io
-description: "Pier-Luc, votre spécialiste en planification, infrastructure et développement Web."
+description: "Spécialisé dans le développement d'applications Web sur mesure pour petites et moyennes entreprises. Grâce à des technologies modernes et extensibles comme Node.js, Angular, React et MongoDB, vos applications seront dotées d'une fiabilité inégalée et pourront grandir avec vous."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.pierluc.io" # the base hostname & protocol for your site
 twitter_username: Zertz
