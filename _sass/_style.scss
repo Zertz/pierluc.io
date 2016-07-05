@@ -1361,12 +1361,21 @@ ul.social-buttons li a:active {
 
 /* =Our Count
 -------------------------------------------------------------- */
-#ourcount .item {
+.our-count {
+    background-image: url(/images/technologies.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.our-count, .our-count h2, .our-count .section-title h2 {
+    color: #fff;
+}
+
+.our-count .item {
 	text-align: center;
 }
 
-
-#ourcount .item > .circle-hold {
+.our-count .item > .circle-hold {
     position: relative;
     margin: 0 auto;
     margin-bottom: 20px;
@@ -1376,7 +1385,7 @@ ul.social-buttons li a:active {
     border-radius: 50%;
 }
 
-#ourcount .item > .circle-hold > i {
+.our-count .item > .circle-hold > i {
 	color: #fff;
     display: block;
     position: absolute;
