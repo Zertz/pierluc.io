@@ -17,12 +17,26 @@
 
     > svg {
         display: inline-block;
-        width: 24px;
-        height: 24px;
+        width: 28px;
+        height: 28px;
         vertical-align: middle;
 
         path {
             fill: #414141;
         }
     }
+}
+
+ul.list-horizontal {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.list-horizontal > li {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+ul.list-horizontal > li:last-child {
+    margin-right: 0;
 }
