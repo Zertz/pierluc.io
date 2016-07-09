@@ -13,6 +13,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.pierluc.io" # the base hostname & protocol for your site
 asseturl: "https://storage01.pierluc.io/pierluc-io"
 twitter_username: Zertz
+stackoverflow_userid: 1779688
 github_username:  Zertz
 facebook_app_id: 164646117285802
 
