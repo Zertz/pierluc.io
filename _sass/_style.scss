@@ -584,8 +584,7 @@ button:hover,
 ul.list-arrow { list-style-type:none; }
 ul.list-arrow li { text-indent:-1.3em; }
 ul.list-arrow li:before {
-    font-family: Ionicons;
-    content: "\f3d3";
+    content: "\21AA";
     float: left;
     width: 1.3em;
 }
@@ -1385,12 +1384,21 @@ ul.social-buttons li a:active {
 
 .our-count .item > .circle-hold {
     position: relative;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    width: 110px;
-    height: 110px;
-    background-color: $color-1;
+    margin: 20px auto 0;
+    width: 125px;
+    height: 125px;
+    background-color: #fff/*$color-1*/;
     border-radius: 50%;
+}
+
+.our-count .item > .circle-hold > .circle-hold-bg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 10%;
+    padding-top: 100%;
+    width: 80%;
+    height: 80%;
 }
 
 .our-count .item > .circle-hold > i {
