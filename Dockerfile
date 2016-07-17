@@ -17,6 +17,6 @@ WORKDIR /srv/www
 ADD . /srv/www
 RUN jekyll build
 
-VOLUME /data/https-portal/vhosts/pierluc.io
+VOLUME /srv/www
 
-ENTRYPOINT cp -r /srv/www/* /data/https-portal/vhosts/pierluc.io/
+CMD ["true"]
