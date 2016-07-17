@@ -17,4 +17,6 @@ WORKDIR /srv/www
 ADD . /srv/www
 RUN jekyll build
 
-CMD ["echo"]
+VOLUME /srv/www
+
+CMD ["true"]
