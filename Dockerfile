@@ -1,7 +1,7 @@
 FROM alpine:3.4
 MAINTAINER Pier-Luc Gendreau <pierluc@outlook.com>
 
-ENV BUILD_PACKAGES ruby-dev libffi-dev build-base
+ENV BUILD_PACKAGES bash curl-dev ruby-dev libffi-dev build-base
 ENV RUBY_PACKAGES ruby ruby-bundler
 ENV RUBY_GEMS json kramdown rouge jekyll
 
@@ -17,4 +17,4 @@ WORKDIR /srv/www
 ADD . /srv/www
 RUN jekyll build
 
-CMD ["echo"]
+VOLUME ["/srv/www"]
