@@ -11,7 +11,7 @@ email: pierluc@pierluc.io
 description: "Spécialisé dans le développement d'applications Web fiables, extensibles et modernes pour petites et moyennes entreprises."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.pierluc.io" # the base hostname & protocol for your site
-asseturl: "https://storage01.pierluc.io/pierluc-io"
+asseturl: "https://www.pierluc.io/images"
 twitter_username: Zertz
 stackoverflow_userid: 1779688
 github_username:  Zertz
