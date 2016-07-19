@@ -5,6 +5,7 @@ ENV BUILD_PACKAGES bash curl-dev ruby-dev libffi-dev build-base
 ENV NGINX_PACKAGES nginx
 ENV RUBY_PACKAGES ruby ruby-bundler
 ENV RUBY_GEMS json kramdown rouge jekyll
+ENV JEKYLL_ENV production
 
 RUN apk update && \
     apk upgrade && \
