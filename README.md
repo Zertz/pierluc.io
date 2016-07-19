@@ -23,6 +23,6 @@ Pour `https://www.pierluc.io`, j'utilise les logiciels et services suivants :
 6. **Cloudflare** - réseau de diffusion de contenu (CDN)
 7. **Apex Ping** - suivi de disponibilité et performance
 
-## License
+## Licence
 
 Copyright 2016 Pier-Luc Gendreau
