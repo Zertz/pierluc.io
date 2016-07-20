@@ -1000,6 +1000,10 @@ ul.social-buttons li a:active {
 	margin:0;
 }
 
+.jumbotron.jumbotron-mini { 
+	height: auto;
+}
+
 #particles-js {
 	position: absolute;
 	width: 100%;
@@ -1821,20 +1825,20 @@ span.portfolio-hover a {
 	line-height: 14px;
 }
 
-.timeline > li.timeline-inverted > .timeline-panel {
+.timeline > li.timeline-inverted > .timeline-panel, .timeline > li:nth-child(even) > .timeline-panel {
 	float: right;
 	text-align: left;
 	padding: 0 20px 0 100px;
 }
 
-.timeline > li.timeline-inverted > .timeline-panel:before {
+.timeline > li.timeline-inverted > .timeline-panel:before, .timeline > li:nth-child(even) > .timeline-panel:before {
 	border-left-width: 0;
 	border-right-width: 15px;
 	left: -15px;
 	right: auto;
 }
 
-.timeline > li.timeline-inverted > .timeline-panel:after {
+.timeline > li.timeline-inverted > .timeline-panel:after, .timeline > li:nth-child(even) > .timeline-panel:after {
 	border-left-width: 0;
 	border-right-width: 14px;
 	left: -14px;
@@ -2039,7 +2043,7 @@ footer hr {
 	.timeline > li .timeline-panel { width:41%; float:left; padding:0 20px 20px 30px; text-align:right; }
 	.timeline > li .timeline-image { width:100px; height:100px; left:50%; margin-left:-50px; }
 	.timeline > li .timeline-image h4 { font-size:13px; margin-top:16px; line-height:18px; }
-	.timeline > li.timeline-inverted > .timeline-panel { float:right; text-align:left; padding:0 30px 20px 20px; }
+	.timeline > li.timeline-inverted > .timeline-panel, .timeline > li:nth-child(even) > .timeline-panel { float:right; text-align:left; padding:0 30px 20px 20px; }
 	.modal-dialog { margin:100px auto; }
     .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand { margin-left:0; }
     .dropdown .dropdown-menu{ display:block; opacity:0; -webkit-transition:all 200ms ease-in; -moz-transition:all 200ms ease-in; -ms-transition:all 200ms ease-in; -o-transition:all 200ms ease-in; transition:all 200ms ease-in; }
@@ -2064,7 +2068,7 @@ footer hr {
 	.timeline > li .timeline-panel { padding:0 20px 20px; }
 	.timeline > li .timeline-image { width:150px; height:150px; margin-left:-75px; }
 	.timeline > li .timeline-image h4 { font-size:18px; margin-top:30px; line-height:26px; }
-	.timeline > li.timeline-inverted > .timeline-panel { padding:0 20px 20px; }
+	.timeline > li.timeline-inverted > .timeline-panel, .timeline > li:nth-child(even) > .timeline-panel { padding:0 20px 20px; }
 }
 
 @media (min-width:1200px) {
@@ -2072,5 +2076,5 @@ footer hr {
 	.timeline > li .timeline-panel { padding:0 20px 20px 30px; }
 	.timeline > li .timeline-image { width:170px; height:170px; margin-left:-85px; }
 	.timeline > li .timeline-image h4 { margin-top:40px; }
-	.timeline > li.timeline-inverted > .timeline-panel { padding:0 30px 20px 20px; }
+	.timeline > li.timeline-inverted > .timeline-panel, .timeline > li:nth-child(even) > .timeline-panel { padding:0 30px 20px 20px; }
 }

@@ -21,3 +21,6 @@ facebook_app_id: 164646117285802
 markdown: kramdown
 highlighter: rouge
 exclude: ["Dockerfile", "nginx.conf", "README.md"]
+
+# Blog settings
+permalink: /blog/:year/:month/:day/:title.html

@@ -52,8 +52,12 @@ function submitMSG (valid, msg) {
 /* ---- nav smooth scroll ---- */
 $(document).ready(function () {
   $('.scroll-link').on('click', function (event) {
-    event.preventDefault()
-    scrollToID('#' + $(this).attr('data-id'), 750)
+    var element = $('#' + $(this).attr('data-id'))
+
+    if (element.length) {
+      event.preventDefault()
+      scrollToID(element, 750)
+    }
   })
 
   $('.scroll-top').on('click', function (event) {
