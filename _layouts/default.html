@@ -5,6 +5,10 @@
 
   <body data-spy="scroll" data-target=".navbar" data-offset="70">
 
+    {% if page.comments %}
+    {% include facebook-sdk.html %}
+    {% endif %}
+
     {% include header.html %}
 
     {% include jumbotron.html jumbotron=layout.jumbotron %}
