@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Elon Musk présente le futur de Tesla
+timeline_image: /tesla-logo.png
 categories:
   - Technologie
   - Transport
@@ -21,7 +22,7 @@ connaissent un succès global. Commençons tout d'abord par survoler ce plan ini
 
 ### **1.** Produire une voiture nécessairement coûteuse, à bas volume
 
-<img alt="photo" title="Tesla Roadster Sport 2.5 2011" class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Roadster_2.5_windmills_trimmed.jpg/1024px-Roadster_2.5_windmills_trimmed.jpg">
+<img alt="photo" title="Tesla Roadster Sport 2.5 2011" class="img-responsive" src="{{ "/tesla-roadster.jpg" | prepend: site.asseturl }}">
 
 > *Tesla Roadster Sport 2.5 2011*
 
@@ -33,7 +34,7 @@ vendre un maigre 2 450 exemplaires en près de cinq ans.
 
 ### **2.** Investir dans le développement d'une voiture moins cher
 
-<img alt="photo" title="Tesla Model S 2013" class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/2013_Tesla_Model_S_%2811322176214%29_cropped.jpg/800px-2013_Tesla_Model_S_%2811322176214%29_cropped.jpg">
+<img alt="photo" title="Tesla Model S 2013" class="img-responsive" src="{{ "/tesla-model-s.jpg" | prepend: site.asseturl }}">
 
 > *Tesla Model S 2013 ([photo](https://www.flickr.com/photos/nielsautos/11322176214/) par Niels de
 > Wit, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/))*
@@ -43,7 +44,7 @@ Après avoir fait ses preuves, Tesla introduit en 2012 ce qui deviendra son prem
 130 000 exemplaires sur la route à travers le monde. Cette berline de luxe finance les opérations de
 Tesla qui sont actuellement en plein expansion.
 
-<img alt="photo" title="Tesla Model X 2015" class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Tesla_Model_X_vin0002_trimmed.jpg/1024px-Tesla_Model_X_vin0002_trimmed.jpg">
+<img alt="photo" title="Tesla Model X 2015" class="img-responsive" src="{{ "/tesla-model-x.jpg" | prepend: site.asseturl }}">
 
 > *Tesla Model X 2015 ([photo](https://www.flickr.com/photos/jurvetson/21359255903/) par Steve
 > Jurvetson, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/))*
@@ -53,7 +54,7 @@ un prix similaire &mdash; à condition d'être en mesure de mettre la main sur u
 
 ### **3.** Investir à nouveau, dans la production d'une voiture abordable
 
-<img alt="photo" title="Tesla Model 3 2017, prototype" class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Candy_Red_Tesla_Model_3_trimmed_2.jpg/1024px-Candy_Red_Tesla_Model_3_trimmed_2.jpg">
+<img alt="photo" title="Tesla Model 3 2017, prototype" class="img-responsive" src="{{ "/tesla-model-3.jpg" | prepend: site.asseturl }}">
 
 > *Tesla Model 3 2017, prototype ([photo](https://www.flickr.com/photos/jurvetson/26173837075) par
 > Steve Jurvetson, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/))*
@@ -67,7 +68,7 @@ trio, *S*, *E* et *X*.
 
 ### **4.** Fournir une source d'énergie renouvelable
 
-<img alt="photo" title="SolarCity" class="img-responsive" src="http://www.solarcity.com/sites/all/themes/solarcity/img/carousel/res-panels-carousel6_1.jpg">
+<img alt="photo" title="SolarCity" class="img-responsive" src="{{ "/solarcity.jpg" | prepend: site.asseturl }}">
 
 > *SolarCity ([photo](http://www.solarcity.com/residential/how-solar-roof-panels-look) &copy; SolarCity)*
 
@@ -101,7 +102,7 @@ offerts par Tesla.
 2. Chargeurs (*Supercharger*)
 3. Piles (*Powerwall*)
 
-<img alt="photo" title="Tesla Supercharger" class="img-responsive" src="https://www.tesla.com/sites/default/files/images/supercharger/supercharger-hero.jpg">
+<img alt="photo" title="Tesla Supercharger" class="img-responsive" src="{{ "/tesla-supercharger.jpg" | prepend: site.asseturl }}">
 
 > *Tesla Supercharger ([photo](https://www.tesla.com/fr_CA/supercharger) &copy; Tesla Motors)*
 
@@ -133,7 +134,7 @@ produits pour enrichir la gamme actuelle:
 3. Camion lourd (semi-remorque)
 4. Véhicule urbain à haute densité de passagers (autobus)
 
-<img alt="photo" title="Nikola One" class="img-responsive" src="https://nikolamotor.com/assets/nikola_one_3-3ee1c6c2cf49eccaa3f2638a5ee845a6e9978eeb80389982d865edcf186c4698.jpg">
+<img alt="photo" title="Nikola One" class="img-responsive" src="{{ "/nikola-one.jpg" | prepend: site.asseturl }}">
 
 > *Nikola One ([photo](https://nikolamotor.com/press) &copy; Nikola Motor Company)*
 
@@ -155,7 +156,7 @@ Ce qui est offert aujourd'hui est une combinaison de fonctionnalités incluant:
 3. Virage d'urgence et avertissement de collision latérale
 4. Stationnement parallèle
 
-<img alt="photo" title="Tesla Autopilot" class="img-responsive" src="https://www.tesla.com/sites/default/files/images/presskit/software70/press01_autopilot.jpg">
+<img alt="photo" title="Tesla Autopilot" class="img-responsive" src="{{ "/tesla-autopilot.jpg" | prepend: site.asseturl }}">
 
 > *Tesla Autopilot ([photo](https://www.tesla.com/presskit/autopilot) &copy; Tesla Motors)*
 

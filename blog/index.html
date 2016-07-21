@@ -21,7 +21,7 @@ layout: page
         <ul class="timeline pb80">
           {% for post in site.posts %}
           <li>
-            <div class="timeline-image scaleReveal"><img alt="" class="img-circle img-responsive" src="{{ " /timeline-1.jpg " | prepend: site.asseturl }}"></div>
+            <div class="timeline-image scaleReveal"><img alt="" class="img-circle img-responsive" src="{{ post.timeline_image | prepend: site.asseturl }}"></div>
             <div class="timeline-panel leftReveal">
               <div class="timeline-heading">
                 <h5 class="heading-1 mb15">{{ post.date | date : '%Y-%m-%d' }}</h5>
