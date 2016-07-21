@@ -15,7 +15,7 @@ share: yes
 Motors, a annoncé hier son plan pour ~~dominer le monde~~ les dix prochaines années.
 <!--more-->
 Musk, reconnu pour sa vision à long terme et sa forte tendance à prendre d'énormes risques, nous
-présentait en 2006 les quatre premières étapes à franchir pour ce qui était alors une toute nouvelle
+présentait en 2006 les [quatre premières étapes][1] à franchir pour ce qui était alors une toute nouvelle
 entreprise automobile, une industrie notamment difficile à percer où seulement quelques géants
 connaissent un succès global. Commençons tout d'abord par survoler ce plan initial.
 
@@ -84,7 +84,7 @@ a réussi à se faire une place dans un marché particulièrement ardu pour les 
 
 Assez du passé, regardons maintenant ce que le futur nous réserve. Évidemment, Elon Musk discute
 ici du futur de Tesla, sa vision est par contre applicable à l'ensemble de l'industrie du transport.
-Voici donc *le* plan, les dix prochaines années de Tesla.
+Voici donc la [feuille de route][2], les dix prochaines années de Tesla.
 
 ### **1.** Intégrer la production et le stockage d'énergie
 
@@ -209,3 +209,6 @@ s'améliorer et permettre à Elon Musk de livrer les innovations promises:
 
 L'avenir est prometteur pour Tesla et l'entreprise californienne est prête à pousser l'innovation,
 tant le domaine du transport que de l'énergie renouvelable. 
+
+[1]: https://www.tesla.com/blog/secret-tesla-motors-master-plan-just-between-you-and-me
+[2]: https://www.tesla.com/blog/master-plan-part-deux
