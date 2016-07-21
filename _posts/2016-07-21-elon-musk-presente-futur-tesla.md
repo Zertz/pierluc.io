@@ -8,19 +8,19 @@ categories:
   - Automobile
   - Tesla
 excerpt: >
-  À l'aube du 13e anniversaire de Tesla Motors, Elon Musk, co-fondateur et PDG de Tesla
-  Motors, a annoncé hier son plan pour les dix prochaines années.
+  À l'aube du 13e anniversaire de Tesla Motors, Elon Musk, co-fondateur et PDG de l'entreprise
+  californienne, a annoncé hier son plan pour les dix prochaines années.
 og_image: /og-tesla-supercharger.jpg
 comments: yes
 share: yes
 ---
 
-À l'aube du 13<sup>e</sup> anniversaire de Tesla Motors, Elon Musk, co-fondateur et PDG de Tesla
-Motors, a annoncé hier son plan pour ~~dominer le monde~~ les dix prochaines années. Musk, reconnu
-pour sa vision à long terme et sa forte tendance à prendre d'énormes risques, nous présentait en
-2006 les [quatre premières étapes][1] à franchir pour ce qui était alors une toute nouvelle
-entreprise automobile, une industrie notamment difficile à percer où seulement quelques géants
-connaissent un succès global. Commençons tout d'abord par survoler ce plan initial.
+À l'aube du 13<sup>e</sup> anniversaire de Tesla Motors, Elon Musk, co-fondateur et PDG de
+l'entreprise californienne, a annoncé hier son plan pour ~~dominer le monde~~ les dix prochaines
+années. Musk, reconnu pour sa vision à long terme et sa forte tendance à prendre d'énormes risques,
+nous présentait en 2006 les [quatre premières étapes][1] à franchir pour ce qui était alors une
+toute nouvelle entreprise automobile, une industrie notamment difficile à percer où seulement
+quelques géants connaissent un succès global. Commençons tout d'abord par survoler ce plan initial.
 
 ### **1.** Produire une voiture nécessairement coûteuse, à bas volume
 
