@@ -24,4 +24,4 @@ highlighter: rouge
 exclude: ["Dockerfile", "nginx.conf", "README.md"]
 
 # Blog settings
-permalink: /blog/:year/:month/:day/:title.html
+permalink: /blog/:year/:month/:day/:title
