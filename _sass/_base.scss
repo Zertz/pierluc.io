@@ -10,26 +10,9 @@
     }
 }
 
-.icon {
-    &:hover, &:focus {
-        text-decoration: none;
-    }
-
-    > svg, > img {
-        display: inline-block;
-        width: 28px;
-        height: 28px;
-        vertical-align: middle;
-
-        path {
-            fill: #414141;
-        }
-    }
-}
-
 ul.list-horizontal {
     list-style-type: none;
-    padding: 0;
+    padding: 10px 0 0;
 }
 
 ul.list-horizontal > li {
