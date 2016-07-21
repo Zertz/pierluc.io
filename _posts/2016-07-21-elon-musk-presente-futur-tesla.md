@@ -7,7 +7,10 @@ categories:
   - Transport
   - Automobile
   - Tesla
-excerpt_separator: <!--more-->
+excerpt: >
+  À l'aube du 13e anniversaire de Tesla Motors, Elon Musk, co-fondateur et PDG de Tesla
+  Motors, a annoncé hier son plan pour les dix prochaines années.
+og_image: /og-tesla-supercharger.jpg
 comments: yes
 share: yes
 ---
