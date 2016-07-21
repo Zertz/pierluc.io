@@ -14,20 +14,19 @@ hello: hide
       </div>
     </div>
   </div>
-  <div id="our-process">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-12 process-box text-center pt50 pb50">
-          <article class="process-intro">
-            <h3 class="process-number">{{ page.title }}</h3>
-            <h4>
-              {% for category in page.categories %}
-              <span class="label label-info">{{ category | downcase }}</span>
-              {% endfor %}
-            </h4>
-            {{ content }}
-          </article>
-        </div>
+  <div id="our-process" class="container">
+    <div class="row">
+      <div class="col-sm-12 process-box pt50 pb50">
+        <article class="process-intro">
+          <h2 class="process-number">{{ page.title }}</h2>
+          {{ content }}
+          <hr>
+          <p>
+            {% for category in page.categories %}
+            <span class="label label-info">{{ category | downcase }}</span>
+            {% endfor %}
+          </p>
+        </article>
       </div>
     </div>
   </div>
