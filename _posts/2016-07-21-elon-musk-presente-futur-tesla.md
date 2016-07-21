@@ -133,6 +133,10 @@ produits pour enrichir la gamme actuelle:
 3. Camion lourd (semi-remorque)
 4. Véhicule urbain à haute densité de passagers (autobus)
 
+<img alt="photo" title="Nikola One" class="img-responsive" src="https://nikolamotor.com/assets/nikola_one_3-3ee1c6c2cf49eccaa3f2638a5ee845a6e9978eeb80389982d865edcf186c4698.jpg">
+
+> *Nikola One ([photo](https://nikolamotor.com/press) &copy; Nikola Motor Company)*
+
 Alors que les deux premiers viennent simplement compléter l'offre de voitures Tesla pour le
 consommateur, l'autobus et la semi-remorque signent l'introduction de la marque dans le marché
 commercial. L'arrivée d'un joueur innovateur ne pourra que raviver l'industrie du transport, depuis
@@ -150,6 +154,10 @@ Ce qui est offert aujourd'hui est une combinaison de fonctionnalités incluant:
 2. Changement de voie suite à l'activation du clignotant
 3. Virage d'urgence et avertissement de collision latérale
 4. Stationnement parallèle
+
+<img alt="photo" title="Tesla Autopilot" class="img-responsive" src="https://www.tesla.com/sites/default/files/images/presskit/software70/press01_autopilot.jpg">
+
+> *Tesla Autopilot ([photo](https://www.tesla.com/presskit/autopilot) &copy; Tesla Motors)*
 
 Le système a récemment fait les manchettes à quelques reprises pour les mauvaises raisons alors que
 des failles dans le logiciel se serait manifestées et aurait causé la mort d'un conducteur.
