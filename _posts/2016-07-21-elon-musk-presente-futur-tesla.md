@@ -29,8 +29,8 @@ quelques géants connaissent un succès global. Commençons tout d'abord par sur
 > *Tesla Roadster Sport 2.5 2011*
 
 Grâce à une entente avec Lotus et à peine cinq ans après le lancement de la compagnie, Tesla lance
-en 2008 la *Roadster*: une propulsion deux places vêtu d'un toit *Targa* et se vendant plus de 100
-000 $. Déjà, les critiques sont enchantées par ses performances favorablement comparable à la
+en 2008 la *Roadster*: une propulsion deux places vêtue d'un toit *Targa* et se vendant plus de 100
+000 $. Déjà, les critiques sont enchantées par ses performances favorablement comparables à la
 compétition. Cependant, la capacité de production du manufacturier étant alors très limitée ne lui
 permettra de vendre qu'un maigre 2 450 exemplaires en près de cinq ans.
 
@@ -68,7 +68,7 @@ Si Tesla est le Apple de l'automobile, la *Model 3* est son *iPhone*. Avec au-de
 précommandes, elle représente des ventes totalisant potentiellement **14 milliards** de dollars!
 Faits intéressants, personne à l'extérieur de l'entreprise n'a encore conduit la prometteuse voiture
 et les livraisons ne commenceront que vers la fin de 2017. Annoncée en 2014 sous le nom de *Model
-E*, mais ensuite renommée puisque Ford possède des droits sur le nom, elle aurait permi à Tesla de
+E*, mais ensuite renommée puisque Ford possède des droits sur le nom, elle aurait permis à Tesla de
 complété le trio, *S*, *E* et *X*.
 
 ### **4.** Fournir une source d'énergie renouvelable
@@ -78,7 +78,7 @@ complété le trio, *S*, *E* et *X*.
 > *SolarCity ([photo](http://www.solarcity.com/residential/how-solar-roof-panels-look) &copy;
 > SolarCity)*
 
-Aussi fondé par Elon Musk, SolarCity est une entreprise un peu plus méconnu du public, qui
+Aussi fondé par Elon Musk, SolarCity est une entreprise un peu plus méconnue du public, qui
 développe, produit et installe des panneaux solaires. Au mois de juin, Tesla a annoncé son intention
 d'acquérir SolarCity pour la modique somme de 3 milliards de dollars, permettant ainsi à la
 compagnie de compléter la dernière étape de son plan.
@@ -98,7 +98,7 @@ Voici donc la [feuille de route][2], les dix prochaines années de l'entreprise.
 La production d'électricité peut, à première vue, sembler un domaine distant pour un manufacturier
 automobile, mais Tesla a depuis longtemps prouvé que la compagnie n'oeuvre tout simplement pas dans
 le *traditionnel*. Malgré l'incertitude de certains investisseurs, l'acquisition de SolarCity
-devrait être compléter dans les semaines, ou même les jours qui suivent, et ainsi permettre le début
+devrait être complétée dans les semaines, ou même les jours qui suivent, et ainsi permettre le début
 d'une toute nouvelle collaboration.
 
 Pour comprendre le potentiel qui s'offre ici, il faut tout d'abord jeter un coup d'oeil aux produits
@@ -112,10 +112,10 @@ offerts par Tesla:
 
 > *Tesla Supercharger ([photo](https://www.tesla.com/fr_CA/supercharger) &copy; Tesla Motors)*
 
-Vous connaissez déjà les voitures et les propriétaires seront familier avec les chargeurs, qui, en
+Vous connaissez déjà les voitures et les propriétaires seront familiers avec les chargeurs, qui, en
 plus de leur design futuristique, ont la capacité d'offrir une autonomie pouvant atteindre 250
 kilomètres en seulement 20 minutes. Moins connu est le *Powerwall*, ces énormes piles murales
-conçues pour être installé à la maison ou au travail. C'est dans ce dernier que se trouve la
+conçues pour être installées à la maison ou au travail. C'est dans ce dernier que se trouve la
 principale synergie avec les panneaux solaires de SolarCity.
 
 En permettant de stocker l'énergie accumulée pendant les heures ensoleillées de la journée, Tesla
@@ -148,7 +148,7 @@ consommateur, l'autobus et la semi-remorque signent l'introduction de la marque 
 commercial. L'arrivée d'un joueur innovateur ne pourra que raviver l'industrie du transport, depuis
 longtemps affligée par le statu quo. Grâce au moteur électrique, la compagnie pourrait produire des
 véhicule lourds avec des caractéristiques d'accélération et de freinage beaucoup plus près d'une
-voiture traditionnelle, permettant ainsi à Tesla de d'optimiser la consommation d'énergie, mais
+voiture traditionnelle, permettant ainsi à Tesla d'optimiser la consommation d'énergie, mais
 aussi la circulation du trafic.
 
 ### **3.** Conduite autonome
@@ -198,7 +198,7 @@ Pensez *Uber*, sans chauffeur.
 
 ---
 
-Les dix dernière années auront donc permi à Tesla d'atteindre leur quatre objectifs initiaux:
+Les dix dernière années auront donc permis à Tesla d'atteindre leur quatre objectifs initiaux:
 
 1. Produire une voiture nécessairement coûteuse, à bas volume
 2. Investir dans le développement d'une voiture moins cher
