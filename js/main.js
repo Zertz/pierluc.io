@@ -1,3 +1,16 @@
+/* ---- post comments ---- */
+$('#show-post-comments').on('click', function () {
+	var element = $(this)
+
+	element.attr('disabled', 'disabled')
+	element.text('Chargement des commentaires...')
+	$('#fb-comments').addClass('fb-comments')
+
+	FB.XFBML.parse(document.getElementById('#fb-comments-wrapper'), function () {
+		element.css('display', 'none')
+	})
+})
+
 /* ---- contact form ---- */
 $('#contactForm').validator().on('submit', function (event) {
   if (event.isDefaultPrevented()) {
