@@ -39,9 +39,10 @@ function submitForm () {
     success: function (res) {
       if (res.success === 'email sent') {
         formSuccess()
+        submitMSG(true, 'Merci, votre message a été envoyé!')
       } else {
         formError()
-        submitMSG(false, text)
+        submitMSG(false, "Désolé, il semble que votre message n'a pu être envoyé. Vous pouvez m'écrire par courriel: info@pierluc.io")
       }
     }
   })
@@ -49,7 +50,6 @@ function submitForm () {
 
 function formSuccess () {
   $('#contactForm')[0].reset()
-  submitMSG(true, 'Merci, votre message a été envoyé!')
 }
 
 function formError () {
