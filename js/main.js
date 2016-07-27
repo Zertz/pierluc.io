@@ -30,22 +30,23 @@ function submitForm () {
   var message = $('#message').val()
 
   $.ajax({
-    url: 'https://formspree.io/info@pierluc.io', 
+    url: 'https://pierluc-io.azurewebsites.net/api/contact-me',
     method: 'POST',
-    data: {
+    data: JSON.stringify({
       name: name,
       email: email,
       message: message
+    }),
+    headers: {
+      'Content-Type': 'application/json'
     },
-    dataType: 'json',
-    success: function (res) {
-      if (res.success === 'email sent') {
-        formSuccess()
-        submitMSG(true, 'Merci, votre message a été envoyé!')
-      } else {
-        formError()
-        submitMSG(false, "Désolé, il semble que votre message n'a pu être envoyé. Vous pouvez m'écrire par courriel: info@pierluc.io")
-      }
+    success: function (response, textStatus, jqXHR) {
+      formSuccess()
+      submitMSG(true, 'Merci, votre message a été envoyé!')
+    },
+    error: function (response) {
+      formError()
+      submitMSG(false, "Désolé, il semble que votre message n'a pu être envoyé. Vous pouvez aussi m'écrire par courriel: info@pierluc.io")
     }
   })
 }
