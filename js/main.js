@@ -1,14 +1,16 @@
+/* global $, FB, particlesJS */
+
 /* ---- post comments ---- */
 $('#show-post-comments').on('click', function () {
-	var element = $(this)
+  var element = $(this)
 
-	element.attr('disabled', 'disabled')
-	element.text('Chargement des commentaires...')
-	$('#fb-comments').addClass('fb-comments')
+  element.attr('disabled', 'disabled')
+  element.text('Chargement des commentaires...')
+  $('#fb-comments').addClass('fb-comments')
 
-	FB.XFBML.parse(document.getElementById('#fb-comments-wrapper'), function () {
-		element.css('display', 'none')
-	})
+  FB.XFBML.parse(document.getElementById('#fb-comments-wrapper'), function () {
+    element.css('display', 'none')
+  })
 })
 
 /* ---- contact form ---- */
@@ -28,22 +30,23 @@ function submitForm () {
   var message = $('#message').val()
 
   $.ajax({
-    url: 'https://formspree.io/info@pierluc.io', 
+    url: 'https://pierluc-io.azurewebsites.net/api/contact-me',
     method: 'POST',
-    data: {
+    data: JSON.stringify({
       name: name,
       email: email,
       message: message
+    }),
+    headers: {
+      'Content-Type': 'application/json'
     },
-    dataType: 'json',
-    success: function (res) {
-      if (res.success === 'email sent') {
-        formSuccess()
-        submitMSG(true, 'Merci, votre message a été envoyé!')
-      } else {
-        formError()
-        submitMSG(false, "Désolé, il semble que votre message n'a pu être envoyé. Vous pouvez m'écrire par courriel: info@pierluc.io")
-      }
+    success: function (response, textStatus, jqXHR) {
+      formSuccess()
+      submitMSG(true, 'Merci, votre message a été envoyé!')
+    },
+    error: function (response) {
+      formError()
+      submitMSG(false, "Désolé, il semble que votre message n'a pu être envoyé. Vous pouvez aussi m'écrire par courriel: info@pierluc.io")
     }
   })
 }
@@ -89,16 +92,16 @@ function scrollToID (id, speed) {
 
 /* ---- close mobile nav on click ---- */
 $(document).on('click', '.navbar-collapse.in', function (e) {
-  if ($(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle') {
+  if ($(e.target).is('a') && $(e.target).attr('class') !== 'dropdown-toggle') {
     $(this).collapse('hide')
   }
 })
 
 /* ---- rotater text ---- */
 var current = 1
-var height = jQuery('.ticker').height()
-var numberDivs = jQuery('.ticker').children().length
-var first = jQuery('.ticker :nth-child(1)')
+var height = $('.ticker').height()
+var numberDivs = $('.ticker').children().length
+var first = $('.ticker :nth-child(1)')
 
 setInterval(function () {
   var number = current * -height
@@ -114,79 +117,79 @@ setInterval(function () {
 }, 2500)
 
 particlesJS('particles-js', {
-	'particles': {
-		'number': {
-			'value': 80,
-			'density': {
-				'enable': true,
-				'value_area': 800
-			}
-		},
-		'color': {
-			'value': '#ffffff'
-		},
-		'shape': {
-			'type': 'circle',
-			'stroke': {
-				'width': 0,
-				'color': '#000000'
-			},
-			'polygon': {
-				'nb_sides': 5
-			}
-		},
-		'opacity': {
-			'value': 0.5,
-			'random': false,
-			'anim': {
-				'enable': false,
-				'speed': 1,
-				'opacity_min': 0.1,
-				'sync': false
-			}
-		},
-		'size': {
-			'value': 3,
-			'random': true,
-			'anim': {
-				'enable': false,
-				'speed': 40,
-				'size_min': 0.1,
-				'sync': false
-			}
-		},
-		'line_linked': {
-			'enable': true,
-			'distance': 150,
-			'color': '#ffffff',
-			'opacity': 0.4,
-			'width': 1
-		},
-		'move': {
-			'enable': true,
-			'speed': 6,
-			'direction': 'none',
-			'random': false,
-			'straight': false,
-			'out_mode': 'out',
-			'bounce': false,
-			'attract': {
-				'enable': false,
-				'rotateX': 600,
-				'rotateY': 1200
-			}
-		}
-	},
-	'interactivity': {
-		'events': {
-			'onhover': {
-				'enable': false
-			},
-			'onclick': {
-				'enable': false
-			},
-			'resize': false
-		}
-	},
-	'retina_detect': true
+  'particles': {
+    'number': {
+      'value': 80,
+      'density': {
+        'enable': true,
+        'value_area': 800
+      }
+    },
+    'color': {
+      'value': '#ffffff'
+    },
+    'shape': {
+      'type': 'circle',
+      'stroke': {
+        'width': 0,
+        'color': '#000000'
+      },
+      'polygon': {
+        'nb_sides': 5
+      }
+    },
+    'opacity': {
+      'value': 0.5,
+      'random': false,
+      'anim': {
+        'enable': false,
+        'speed': 1,
+        'opacity_min': 0.1,
+        'sync': false
+      }
+    },
+    'size': {
+      'value': 3,
+      'random': true,
+      'anim': {
+        'enable': false,
+        'speed': 40,
+        'size_min': 0.1,
+        'sync': false
+      }
+    },
+    'line_linked': {
+      'enable': true,
+      'distance': 150,
+      'color': '#ffffff',
+      'opacity': 0.4,
+      'width': 1
+    },
+    'move': {
+      'enable': true,
+      'speed': 6,
+      'direction': 'none',
+      'random': false,
+      'straight': false,
+      'out_mode': 'out',
+      'bounce': false,
+      'attract': {
+        'enable': false,
+        'rotateX': 600,
+        'rotateY': 1200
+      }
+    }
+  },
+  'interactivity': {
+    'events': {
+      'onhover': {
+        'enable': false
+      },
+      'onclick': {
+        'enable': false
+      },
+      'resize': false
+    }
+  },
+  'retina_detect': true
 })
