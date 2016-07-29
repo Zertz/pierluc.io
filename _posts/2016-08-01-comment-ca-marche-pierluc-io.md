@@ -7,7 +7,9 @@ categories:
   - Web
   - Performance
 excerpt: >
-  Oh la la
+  Découvrez les technologies derrière ce site, bâti sur une architecture dernier cri permettant
+  d’offrir la meilleure expérience utilisateur possible, tant sur l'ordinateur que sur les appareils
+  mobiles.
 og_image: /opengraph.png
 comments: yes
 share: yes
