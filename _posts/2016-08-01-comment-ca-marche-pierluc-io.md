@@ -49,6 +49,8 @@ fichiers textes, Jekyll est un retour aux souches, avec une approche moderne au 
 > La maintenance du site se fait exclusivement avec Jekyll, tous les autres logiciels et services
 sont dans la catégorie *configurer et oublier*.
 
+<small>[Plus d'informations](https://jekyllrb.com/)</small>
+
 ### GitHub
 
 GitHub offre un système de contrôle de source, un terme chic qui, à sa plus simple expression,
@@ -56,12 +58,16 @@ permet de maintenir automatiquement une copie de sauvegarde de toutes les versio
 application Web. Il n'est donc pas nécessaire de configurer une sauvegarde ou même de conserver une
 copie du site sur votre ordinateur.
 
+<small>[Plus d'informations](https://github.com/)</small>
+
 ### Docker Cloud
 
 Utilisé en tandem avec GitHub, Docker Cloud est un service permettant le déploiement du site à
 l'intérieur de conteneurs Docker. Sans pour l'instant entrer dans les détails, cette technologie
 permet de publier votre site sur l'infrastructure de votre choix et de changer de fournisseur
 litérallement en quelques minutes. Fini les problèmes d'hébergement Web!
+
+<small>[Plus d'informations](https://cloud.docker.com/)</small>
 
 ### Azure
 
@@ -75,6 +81,8 @@ est grandement supérieure.
 d'obtenir des crédits mensuels pour l'utilisation de ressources Azure &mdash; une façon économique
 de découvrir et de tester l'infrastructure offerte par Microsoft.
 
+<small>[Plus d'informations](https://azure.microsoft.com/)</small>
+
 ### Let's Encrypt
 
 Disponible à l’ensemble du public depuis avril 2016, *Let's Encrypt* est une toute nouvelle autorité
@@ -84,11 +92,15 @@ utilisateurs peuvent quand même être vulnérables à de multiples failles de s
 l'objectif de cet organisme à but non lucratif, soit de sécurisé l'intégralité du Web, est non
 seulement noble, mais aussi important.
 
+<small>[Plus d'informations](https://letsencrypt.org/)</small>
+
 ### nginx
 
 Le coeur du site, nginx (prononcé *engine-x*) est un serveur Web gratuit utilisé par près de 150
 millions de sites à travers le monde. Son travail est « simplement » d'envoyer la bonne page
 lorsqu'un visiteur arrive sur votre site Internet.
+
+<small>[Plus d'informations](https://www.nginx.com/)</small>
 
 ### Cloudflare
 
@@ -98,12 +110,16 @@ name system*, ou *DNS*), Cloudflare peut aussi conserver une copie de votre site
 L'avantage immédiat du produit est d'améliorer la performance du site et de supporter aisément un
 grand nombre de visiteurs simultanés.
 
+<small>[Plus d'informations](https://www.cloudflare.com/)</small>
+
 ### Apex Ping
 
 Un outil trop souvent oublié, Apex Ping effectue automatiquement le suivi de disponibilité et de
 performance du site. Il permet de visualiser, en temps réel, le temps de réponse du site et de
 recevoir une alerte dès qu'une erreur se produit. Si une panne se produit, vous, et non vos clients,
 serez donc les premiers à l'apprendre.
+
+<small>[Plus d'informations](https://apex.sh/ping/)</small>
 
 ---
 
