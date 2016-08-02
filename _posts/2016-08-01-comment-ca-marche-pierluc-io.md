@@ -42,9 +42,10 @@ objectifs.
 ### Jekyll
 
 Les générateurs de site statique comme Jekyll offrent quelques avantages importants face aux
-plateformes de blogue comme WordPress: ils sont très rapide et ne nécessitent pas l'installation
-d'une base de données ni d'un système de sauvegarde complexe. Étant simplement composé de quelques
-fichiers textes, Jekyll est un retour aux souches, avec une approche moderne au développement Web.
+plateformes de blogue comme WordPress et Joomla: ils sont très rapide et ne nécessitent pas
+l'installation d'une base de données ni d'un système de sauvegarde complexe. Étant simplement
+composé de quelques fichiers textes, Jekyll est un retour aux souches, avec une approche moderne au
+développement Web.
 
 > La maintenance du site se fait exclusivement avec Jekyll, tous les autres logiciels et services
 sont dans la catégorie *configurer et oublier*.
@@ -74,7 +75,7 @@ litérallement en quelques minutes. Fini les problèmes d'hébergement Web!
 Conçu par Microsoft, Azure est une fournisseur de services d'infrastructure infonuagique (appelé en
 anglais *infrastructure as a service*, ou *IaaS*) qui offre une panoplie de services incluant
 l'équilibrage de charge, l'hébergement de machines virtuelles, du stockage et beaucoup plus. Bien
-que ce type de service soit légèrement plus coûteux que les hébergeurs traditionnels, la fiabilité
+que ce type de service soit légèrement plus coûteux que les hébergeurs traditionnels, leur fiabilité
 est grandement supérieure.
 
 > Le programme [*BizSpark*](https://www.microsoft.com/bizspark/) permet aux entreprises en démarrage
@@ -129,5 +130,5 @@ préférence et de coût. Tous les logiciels ci-haut sont gratuits et, à part l
 les services offrent un niveau de tarification gratuit, permettant ainsi de mettre à le système à
 l'épreuve avec un investissement minimal tout en évitant de devenir captif de ces fournisseurs.
 
-> Pour les plus curieux, c'est dans ce même esprit d'ouverture que tout le code source de
+Pour les plus curieux, c'est dans ce même esprit d'ouverture que tout le code source de
 *pierluc.io* est [publié librement sur Github](https://github.com/pierluc-io/pierluc.io).
