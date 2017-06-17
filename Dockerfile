@@ -1,4 +1,4 @@
-FROM alpine:3.4
+FROM alpine:3.6
 MAINTAINER Pier-Luc Gendreau <pierluc@outlook.com>
 
 ENV BUILD_PACKAGES bash curl-dev ruby-dev libffi-dev build-base
