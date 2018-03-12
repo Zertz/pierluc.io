@@ -1,0 +1,7 @@
+{
+    "public": false,
+    "alias": [
+        "pierluc.io"
+    ],
+    "dotenv": ".env.production"
+}
