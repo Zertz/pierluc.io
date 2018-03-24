@@ -1,13 +1,21 @@
+import { Fragment } from "react";
+import dynamic from "next/dynamic";
+
 import App from "../components/App";
 import Header from "../components/Header";
-import Repositories from "../components/Repositories";
-import Footer from "../components/Footer";
-import withData from "../lib/withData";
+import Content from "../components/Content";
 
-export default withData(() => (
-  <App>
-    <Header>Repositories</Header>
-    <Repositories />
-    <Footer />
-  </App>
-));
+const Particles = dynamic(import("../components/Particles"), {
+  loading: () => null,
+  ssr: false
+});
+
+export default () => (
+  <Fragment>
+    <Particles />
+    <App>
+      <Header />
+      <Content />
+    </App>
+  </Fragment>
+);
